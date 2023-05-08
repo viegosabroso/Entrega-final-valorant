@@ -1,0 +1,139 @@
+
+body{
+    background-image: url(image\ 54.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+}
+
+.perfil{
+    position: absolute;
+    z-index: 100;
+    margin-top: -520px;
+}
+#contenido{
+    position: absolute;
+    align-items: center;
+    z-index: 100;
+    justify-content: center;
+}
+
+.contenedor{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.47) 31.51%, rgba(73, 73, 73, 0.67) 59.36%, rgba(255, 2, 2, 0.58) 109.5%);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    filter: blur(2px);
+    width: 484px;
+    height: 484px;
+    left: 398px;
+    top: 269px;
+    border-radius: 60px;
+}
+
+#contenido h1{
+    font-family: 'Arimo', sans-serif;
+    font-size: 19px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+    margin-top: 70px;
+    margin-bottom: 50px;
+
+}
+
+#contenido p{
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    width: 400px;
+    margin-bottom: 60px;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding-left: 159px;
+    padding-top: 10px;
+}
+
+#vector{
+    text-decoration: none;
+}
+
+.socials a{
+    font-family: 'Arimo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 18px;
+}
+
+#facebook{
+    position: absolute;
+    margin-left: -39px;
+    margin-top: -4px;
+}
+
+#email{
+    position: absolute;
+    margin-left: -52px;
+    margin-top: 30px;
+}
+
+#instagram{
+    position: absolute;
+    margin-left: -56px;
+    margin-top: 60px;
+}
+
+#contenido button{
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 180px;
+    margin-top: 40px;
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    color: white;
+    
+}
+
+#contenido button img{
+    position: absolute;
+    margin-top: -2px;
+    margin-left: -30px;
+    animation-duration: 2s;
+    animation-iteration-count: 
+}
+
+#contenido button:hover{
+    color: black;
+    font-weight: 700;
+}
+
+#contenido button img:hover{
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+@keyframes bounce {
+0%   { transform: translateX(0); }
+50%  { transform: translateX(-50px); }
+100% { transform: translateX(0); }
+}
+    

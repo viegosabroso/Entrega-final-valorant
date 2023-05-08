@@ -1,0 +1,139 @@
+
+body{
+    background-image: url(image\ 21.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Arimo', sans-serif;
+    background-width: 100vw;
+    background-height: 100vh;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.barrasuperior{
+    display: flex;
+    padding-top: 44px;
+    padding-left: 1250px;
+    gap: 40px;
+    padding-right: 40px;
+}
+
+#error{
+    color: #ff0008; 
+    margin: 0;
+    
+}
+.contenedor{
+    display: flex;
+    width: 472px;
+    height: 545px;
+    background: linear-gradient(128.14deg, rgba(16, 24, 35, 0.4697) 31.23%, rgba(123, 48, 56, 0) 31.23%, rgba(198, 42, 42, 0.486) 58.24%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(2.5px);
+    border-radius: 50px;
+    margin-left: 900px;
+    margin-top: 130px;
+}
+
+.contenedor h1{
+    position: absolute;
+    padding-left: 60px;
+    padding-top: 55px;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.05em;
+
+}
+form{
+    margin-left: 47px;
+    margin-top: 200px;
+    
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#button{
+    margin-bottom: -20px;
+    padding: 17px 160px 17px 25px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.616);
+    backdrop-filter: blur(1.5px);
+    border-style: none;
+    z-index: 100;
+    color: rgb(204, 204, 204);
+    font-size: 16px;
+
+}
+
+#button2{
+    padding: 17px 160px 17px 25px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.616);
+    backdrop-filter: blur(1.5px);
+    border-style: none;
+    z-index: 100;
+    color: rgb(204, 204, 204);
+    font-size: 16px;
+}
+#button::placeholder{
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+}
+
+#button2::placeholder{
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+}
+
+form p{
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgb(185, 185, 185);
+}
+
+form p a{
+    font-family: 900;
+    font-style: bold;
+    text-decoration: none;
+    color: white;
+    margin-left: 108px;
+}
+
+.button{
+    width: 173px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #E13F44;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: white;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+button:hover{
+    background-color: black;
+    color: white;
+}

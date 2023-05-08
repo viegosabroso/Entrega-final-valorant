@@ -1,0 +1,146 @@
+body{
+    background-image: url(ImagenFondoFinal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Arimo', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.rectanguloDatos{
+position: absolute;
+top: 160px;
+left: 98px;
+width: 495px;
+height: 560px;
+background: linear-gradient(176.91deg, rgba(73, 42, 198, 0.45) 16.42%, rgba(0, 0, 0, 0.45) 75.89%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(2.5px);
+border-radius: 50px;
+}
+#error{
+    color: rgb(225, 63, 68);
+    margin: 0;
+    position: absolute;
+    top: 82%;
+    left: 20px;
+}
+.tituloInicio{
+position: absolute;
+width: 445px;
+height: 78px;
+left: 45px;
+color: white;
+font-weight: 700;
+font-size: 45px;
+line-height: 55px;
+letter-spacing: 1px;
+font-weight: 900;
+}
+#user{
+width: 170px;
+height: 50px;
+border-radius: 10px;
+background-color: rgba(227, 227, 227, 0.651);
+border-style: none;
+color: white;
+position: absolute;
+left: 45px;
+top: 115px;
+padding-left: 13px;
+}
+#nick{
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(227, 227, 227, 0.651);
+    border-style: none;
+    color: white;
+    position: absolute;
+    left: 278px;
+    top: 115px;
+    padding-left: 13px;
+}
+#email{
+    width: 404.96px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(227, 227, 227, 0.651);
+    border-style: none;
+    color: white;
+    position: absolute;
+    left: 45px;
+    top: 201px;
+    padding-left: 13px;
+}
+#pass{
+    width: 404.96px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(227, 227, 227, 0.651);
+    border-style: none;
+    color: white;
+    position: absolute;
+    left: 45px;
+    top: 287px;
+    padding-left: 13px;
+}
+#conpass{
+    width: 404.96px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(227, 227, 227, 0.651);
+    border-style: none;
+    color: white;
+    position: absolute;
+    left: 45px;
+    top: 373px;
+    padding-left: 13px;
+}
+#conpass::placeholder{
+    color: white;
+}
+#pass::placeholder{
+    color: white;
+}
+#user::placeholder{
+    color: white;
+}
+#nick::placeholder{
+    color: white;
+}
+#email::placeholder{
+    color: white;
+}
+#linkCuenta{
+color: white;
+position: absolute;
+top: 459px;
+font-size: 12px;
+padding-left: 325px;
+}
+#botonCuenta{
+    height: 45px;
+    width: 145.48px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: rgb(225, 63, 68);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    top: 500px;
+    left: 174.76px;
+}
+.logoRiot{
+    display: flex;
+    gap: 40px;
+    padding-top: 44px;
+    padding-left: 35px;
+}
+#botonCuenta:hover{
+    background-color: black;
+    color: white;
+}

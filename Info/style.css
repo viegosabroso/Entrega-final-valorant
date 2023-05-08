@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'tungsten';
+    src: url(/proyecto/@font-face/561f38b1f4570de0fb8a39d691ab058c.eot);
+}
+body{
+    background-image: url(imagen1.jpg);
+    background-size: 100vw 100vh;
+    padding: 35px;
+    background-repeat: no-repeat;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.padre1{
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+}
+.borde{display: block;
+    width: 100px;
+    border:4px dashed rgb(161, 161, 161);
+    padding: 3px;
+}
+.cuadrado{display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(161, 161, 161);
+}
+.nombre{
+    text-align: center;
+    color: white;
+    font-family: 'dosis';
+    width: 120px;
+    padding-top: 20px;
+    margin: 0;
+    text-decoration: underline;
+
+}
+.tarjeta{
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(180deg, #876BFB 0%, rgba(255, 255, 255, 0) 100%);
+        width: 300px;
+        height: 535px;
+        position:absolute;
+        left: 240px;
+        top: 110px;
+        border-radius: 20px 20px;
+}
+.barra{
+display: flex;
+align-items: center;
+gap: 45px;
+}
+.estado{
+    color: rgb(137, 241, 144);
+    font-family: 'dosis';
+}
+.circulo{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgb(137, 241, 144);
+}
+.desplegable{
+    border: dashed gray;
+    background-color: rgba(128, 128, 128, 0.638);
+    padding-top: 5px;
+    color: white;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+.filters{
+    color: white;
+    font-family: 'dosis';
+    font-weight: 700;
+    font-size: 15pt;
+    padding-top: 30px;
+}
+.barranav{
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+}
+#barraInicio{
+    display: flex;
+    flex-wrap: column;
+    justify-content: center;
+    gap: 90px;
+    text-decoration: ;
+}
+.textoBarra{
+    text-decoration: none;
+    color: white;
+    font-family: 'dosis';
+    font-weight: 500;
+    transition: 0.6s;
+}
+.cuadr{
+    position: absolute;
+    top: 110px;
+    left: 600px;
+    height: 535px;
+    width: 800px;
+    padding: 20px;
+    padding-left: 40px;
+    background-color: rgba(0, 0, 0, 0.464);
+    font-family: 'Arimo';
+    color: white;
+    border-radius: 30px;
+}
+.titulos{
+    
+    font-size: 18pt;
+}
+#jett{
+    position: relative;
+    left: 50%;
+    margin: 0;
+    width: 20px;
+}
+.texto{
+    margin-bottom: 50px;
+    width: 600px;
+    font-weight: 200;
+}
+.role{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.habilidades{
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+}
+.h{
+text-align: center; 
+}
+.textoBarra:hover{
+    color: red;
+}
