@@ -12,11 +12,20 @@ class agents{
         this.cImg =cImg 
         this.xImg =xImg
     }
-tohtml(pos){
+tohtml(){
     return`
-    <div class="tarjeta" id="tarjeta" onclick="selected(${pos})">
-    <i class="fa-regular fa-bookmark estrella"  style="color: #ffffff;" onclick="event.stopPropagation(); addFavorite('${pos}')" ></i>
+    <div class="tarjeta" id="tarjeta" onclick="prueba('${this.id}')">
+    <i class="fa-regular fa-bookmark estrella"  style="color: #ffffff;" onclick="event.stopPropagation(); addFavorite('${this.id}')" ></i>
     <p class="textoo">${this.name}</p>
+    <div class="imagen2"><img src="${this.imagen}" alt="" height="331px"></div>
+    
+`
+}
+tohtmlFav(){
+    return`
+    <div class="tarjeta" id="tarjeta" onclick="prueba('${this.id}')">
+    <i class="fa-solid fa-bookmark estrella"  style="color: #ffffff;" onclick="event.stopPropagation(); deleteFavorite('${this.id}')"></i>
+    <p class="textoo">${this.name}</p>s
     <div class="imagen2"><img src="${this.imagen}" alt="" height="331px"></div>
     
 `

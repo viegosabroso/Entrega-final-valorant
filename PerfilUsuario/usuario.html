@@ -25,7 +25,7 @@
             <div id="perfil">
                 <div id="fotoPerfil">
                     <img class="foto" src="imagenPerfil.png" alt="">
-                    <p class="usuario">NaranjaTriste</p>
+                    <p class="usuario" id="nickname">NaranjaTriste</p>
                 </div>
                 <div class="lineaPerfil">
                     <img src="linea.png" alt="">
@@ -56,11 +56,11 @@
             <div id="contenedorInfo">
             <div class="camposInfo">
                 <p class="titulosInfo">Email</p>
-                <input class="campoRelleno" type="email">
+                <input class="campoRelleno" type="email" id="email">
             </div>
             <div class="camposInfo">
                 <p class="titulosInfo">Old Password</p>
-                <input class="campoRelleno" type="password">
+                <input class="campoRelleno" type="password" id="password">
             </div>
             <div class="camposInfo">
                 <p class="titulosInfo">New Password</p>
@@ -78,7 +78,7 @@
         </div>
         <div id="entraryCambiar">
             <div>
-                <a href=".././Index.html"><input class="salir" type="button" value="LOG OUT"</a>
+                <input class="salir" type="button" value="LOG OUT" onclick="logOut()"></input>
             </div>
             <div>
                 <input class="cambiar" type="button" value="CHANGE PASSWORD">
@@ -86,5 +86,6 @@
         </div>
     </div>
 </div>
+<script src="./usuario.js"></script>
 </body>
 </html>

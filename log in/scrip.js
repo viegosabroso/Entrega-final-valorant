@@ -20,7 +20,6 @@ const contraseña = document.getElementById("button2")
         userdataVal = user
     } else {
         error.innerHTML = 'El usuario no esta registrado'
-        return
     }
 
 }

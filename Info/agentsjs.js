@@ -14,10 +14,18 @@ const id = params.get("id")
 console.log(id)
 
 function crearobt(list,id) {
-    let objt = list[id]
     console.log(id)
-    let newagents = new agents(objt.displayName, objt.fullPortrait, objt.description, objt.role.displayName, objt.role.displayIcon, objt.fullPortrait , objt.abilities[0].displayIcon, objt.abilities[1].displayIcon, objt.abilities[2].displayIcon, objt.abilities[3].displayIcon)
-    newagents.toDetalle()
+    for (let i = 0; i < list.length; i++) {
+        const element = list[i];
+        if (element.uuid === id) {
+            console.log("Encontro el personaje")
+            console.log(element)
+            let newagents = new agents(element.uuid,element.displayName, element.fullPortrait, element.description, element.role.displayName, element.role.displayIcon, element.fullPortrait , element.abilities[0].displayIcon, element.abilities[1].displayIcon, element.abilities[2].displayIcon, element.abilities[3].displayIcon)
+            newagents.toDetalle()
+            break
+        }
+    }
+    
 }
 
 async function data(id) {
