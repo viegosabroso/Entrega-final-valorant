@@ -15,7 +15,7 @@ async function data() {
         for(let i = 0; i < 3; i++){
             if(i !==8 ){
                 let objt = list[i]
-                let newagents = new agents (objt.displayName,objt.fullPortrait)
+                let newagents = new agents (objt.id,objt.displayName,objt.fullPortrait)
                 tarjeta.innerHTML += newagents.tohtml()
             }
         }

@@ -15,13 +15,12 @@ async function data() {
         for(let i = 0; i < list.length; i++){
             if(i !==8 ){
                 let objt = list[i]
-                let newagents = new agents (objt.displayName,objt.fullPortrait,objt.description)
+                let newagents = new agents (objt.id,objt.displayName,objt.fullPortrait,objt.description)
                 tarjeta.innerHTML += newagents.tohtml(i)
             }
         }
     }
 
     function selected(pos){
-        let objt = list[pos]
-        console.log(objt)
+        window.location.href=`../Info/index.html?id=${pos}`
     }

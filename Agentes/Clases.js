@@ -1,5 +1,6 @@
 class agents{
-    constructor(name,imagen,description,role,roleIcon,fullPortrait,qImg,eImg,cImg,xImg){
+    constructor(id,name,imagen,description,role,roleIcon,fullPortrait,qImg,eImg,cImg,xImg){
+        this.id = id
         this.name = name 
         this.imagen = imagen
         this.description = description
@@ -12,12 +13,13 @@ class agents{
         this.xImg =xImg
     }
 tohtml(pos){
-    return`<a href="../Info/index.html?id=${pos}" >
+    return`
     <div class="tarjeta" id="tarjeta" onclick="selected(${pos})">
-    <div class="estrella"><img src="../Agentes/Imagenes/imagen6.png" alt=""></div>
+    <i class="fa-regular fa-bookmark estrella"  style="color: #ffffff;" onclick="event.stopPropagation(); addFavorite('${pos}')" ></i>
+    <p class="textoo">${this.name}</p>
     <div class="imagen2"><img src="${this.imagen}" alt="" height="331px"></div>
     
-</div><p class="textoo">${this.name}</p></a>`
+`
 }
 
 toDetalle() {

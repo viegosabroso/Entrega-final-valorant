@@ -59,7 +59,9 @@ form{
     gap: 40px;
 }
 
-#button{
+#button{display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: -20px;
     padding: 17px 160px 17px 25px;
     border-radius: 10px;
